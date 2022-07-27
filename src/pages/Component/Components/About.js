@@ -27,19 +27,11 @@ const About = () => {
               <div>
                 <h1 className="about-title">About Me</h1>
                 <p className="about-subtitle">
-                  It is a long established fact that a reader will be distracted
-                  by the eadable content of a page when looking at its layout.
-                  The point of using Lorem Ipsum th that it has a ore-or-less
-                  normal distributi.
-                </p>
-
-                <p className="about-subtitle">
-                  content here', making it look like readable English. Many
-                  desktop publishing packages and web page editors now use Lorem
-                  Ipsum as their default model text, and a search for 'lorem
-                  ipsum' will uncover many web sites still in their infancy.
-                  Various versions have evolved over the years, sometimes by
-                  accident
+                  Software Engineer with experience building beautiful software.
+                  Skilled in ReactJS, NodeJS, JavaScript, HTML, CSS, PeopleCode
+                  (Java-like language), SQL, SQR, and IT Service Management.
+                  Strong information technology professional with an MBA from
+                  James Madison University.
                 </p>
               </div>
               <div className="about-psl-info">
@@ -50,41 +42,34 @@ const About = () => {
                       <span className="perName1">Name : </span>
                       <span className="perName2">Phil Ernst</span>
                     </div>
-
-                    <div className="about-list">
-                      <span className="perName1">Age : </span>
-                      <span className="perName2">24 Years</span>
+                    <div className=" about-list ">
+                      <span className="perName1">Location : </span>
+                      <span className="perName2">Virginia, USA</span>
                     </div>
                     <div className="about-list">
-                      <span className="perName1">Nationality : </span>
-                      <span className="perName2">USA</span>
-                    </div>
-                    <div className="about-list">
-                      <span className="perName1">Freelance : </span>
-                      <span className="perName2">Available</span>
+                      <span className="perName1">Ice Cream: </span>
+                      <span className="perName2">Double Dunker</span>
                     </div>
                   </Col>
                   <Col>
-                    <div className=" about-list ">
-                      <span className="perName1">Address : </span>
-                      <span className="perName2"> California, USA</span>
+                    <div className=" about-list">
+                      <span className="perName1">LinkedIn : </span>
+                      <span className="perName2">
+                        linkedin.com/in/phil-ernst
+                      </span>
                     </div>
                     <div className=" about-list">
-                      <span className="perName1">Phone : </span>
-                      <span className="perName2">258-963-1472</span>
-                    </div>
-                    <div className=" about-list">
-                      <span className="perName1">Skype : </span>
-                      <span className="perName2">Deteryplakson22</span>
+                      <span className="perName1">GitHub : </span>
+                      <span className="perName2">github.com/ernstpf</span>
                     </div>
                     <div className=" about-list">
                       <span className="perName1">E-mail : </span>
-                      <span className="perName2">Plakson@gmail.com</span>
+                      <span className="perName2">phil@philernst.com</span>
                     </div>
                   </Col>
                 </Row>
               </div>
-              <button className="BtnView">Download CV</button>
+              <button className="BtnView">Resume</button>
             </Col>
           </Row>
         </div>
