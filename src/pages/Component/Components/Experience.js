@@ -1,88 +1,64 @@
-import React from 'react'
-import { Container, Row, Col, Card } from 'react-bootstrap'
+import React from "react";
+import { Container, Row, Col, Card } from "react-bootstrap";
+
+const jobs = [
+  {
+    title: "Front End/Full Stack Engineer",
+    employer: "CUED-In Inc.",
+    dates: "2020 - present",
+    description:
+      "Build job posting web app using React, Node for startup. Collaborate with engineers and designers to plan and code functionality. https://cuedin.us",
+  },
+  {
+    title: "Software Engineer",
+    employer: "James Madison University",
+    dates: "2015 – present",
+    description:
+      "Support enterprise-wide software. Collaborate with business analysts, designers, and users to understand requirements to create or enhance features. Develop applications based on technical requirements using a Java-like language (PeopleCode), SQR, SQL, and shell scripting",
+  },
+  {
+    title: "Web Developer",
+    employer: "James Madison University",
+    dates: "2012 – 2015",
+    description:
+      "Developed websites (10+ per year) using Cascade CMS with HTML, CSS, JavaScript, and Velocity. Collaborated with designers and users to build and maintain websites. Designed and coded reusable features used across multiple websites",
+  },
+];
 
 const Experience = () => {
   return (
     <>
       <div id="Experience" className="exp-main headding">
-                    <div className="exp ">
-                        <h1 className="text-center title">Experience</h1>
-                    </div>
-                    <Container >
-                        <Row >
-                            <Col lg={6} md={6} sm={6}>
-                                <div className="exp-card" data-aos="flip-left">
-                                    <Card className="exp-block">
-                                        <Card.Body className="exp-body">
-                                            <Card.Title className="exp-title">S
-                                                <p>
-                                                    2017-2018 | Full Time | InHouse
-                                                </p>
-                                            </Card.Title>
-                                            <hr />
-                                            <Card.Text className="exp-text">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut dolor sit amet consectetur adipisicing elit sed do  labore et dolo...
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </div>
-                            </Col>
-                            <Col lg={6} md={6} sm={6}>
-                                <div className="exp-card" data-aos="flip-left">
-                                    <Card className="exp-block">
-                                        <Card.Body className="exp-body">
-                                            <Card.Title className="exp-title">Visual Designer
-                                                <p>
-                                                    2017-2018 | Full Time | InHouse
-                                                </p>
-                                            </Card.Title>
-                                            <hr />
-                                            <Card.Text className="exp-text">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut dolor sit amet consectetur adipisicing elit sed do  labore et dolo...
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </div>
-                            </Col>
-                            <Col lg={6} md={6} sm={6}>
-                                <div className="exp-card" data-aos="flip-left">
-                                    <Card className="exp-block">
-                                        <Card.Body className="exp-body">
-                                            <Card.Title className="exp-title">Visual Designer
-                                                <p>
-                                                    2017-2018 | Full Time | InHouse
-                                                </p>
-                                            </Card.Title>
-                                            <hr />
-                                            <Card.Text className="exp-text">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut dolor sit amet consectetur adipisicing elit sed do  labore et dolo...
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </div>
-                            </Col>
-                            <Col lg={6} md={6} sm={6}    >
-                                <div className="exp-card" data-aos="flip-left">
-                                    <Card className="exp-block">
-                                        <Card.Body className="exp-body">
-                                            <Card.Title className="exp-title">Visual Designer
-                                                <p>
-                                                    2017-2018 | Full Time | InHouse
-                                                </p>
-                                            </Card.Title>
-                                            <hr />
-                                            <Card.Text className="exp-text">
-                                                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do eiusmod tempor incididunt ut dolor sit amet consectetur adipisicing elit sed do  labore et dolo...
-                                            </Card.Text>
-                                        </Card.Body>
-                                    </Card>
-                                </div>
-                            </Col>
-                        </Row>
-                    </Container>
+        <div className="exp">
+          <h1 className="text-center title">Experience</h1>
+        </div>
+        <Container>
+          <Row>
+            {jobs.map((job) => (
+              <Col lg={4} md={4} sm={4}>
+                <div className="exp-card" data-aos="flip-left">
+                  <Card className="exp-block">
+                    <Card.Body className="exp-body">
+                      <Card.Title className="exp-title">
+                        {job.title}
+                        <p>
+                          {job.dates} | {job.employer}
+                        </p>
+                      </Card.Title>
+                      <hr />
+                      <Card.Text className="exp-text">
+                        {job.description}
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
                 </div>
+              </Col>
+            ))}
+          </Row>
+        </Container>
+      </div>
     </>
-  )
-}
+  );
+};
 
-export default Experience
+export default Experience;

@@ -27,7 +27,7 @@ const HeaderBanner = () => {
               <p data-aos="fade-up">
                 I’m passionate about creating truly beautiful digital solutions
                 <br />
-                that give users a memorable experience with technology
+                that give users a memorable digital experience
               </p>
               <button data-aos="fade-up" className="BtnView">
                 VIEW MORE
