@@ -531,21 +531,22 @@ hr {
 
   background: #00af73;
 }
-.bar .progress-line.html span {
+.bar .progress-line.width90 span {
   width: 90%;
 }
-.bar .progress-line.reactjs span {
-  width: 60%;
-}
-.bar .progress-line.wordpress span {
+.bar .progress-line.width85 span {
   width: 85%;
 }
-.bar .progress-line.ui-ux span {
-  width: 50%;
+.bar .progress-line.width80 span {
+  width: 80%;
 }
-.bar .progress-line.css3 span {
+.bar .progress-line.width75 span {
   width: 75%;
 }
+.bar .progress-line.width70 span {
+  width: 70%;
+}
+
 /* ------------------------ End Education & Skills ------------------------ */
 
 /* ------------------------ MY PORTFOLIO ------------------------ */

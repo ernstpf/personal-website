@@ -17,6 +17,29 @@ const degrees = [
   },
 ];
 
+const skills = [
+  {
+    title: "HTML",
+    percent: "90",
+  },
+  {
+    title: "React.JS",
+    percent: "80",
+  },
+  {
+    title: "Node.JS",
+    percent: "75",
+  },
+  {
+    title: "JavaScript",
+    percent: "90",
+  },
+  {
+    title: "CSS3",
+    percent: "75",
+  },
+];
+
 const EducationSkills = () => {
   return (
     <>
@@ -43,92 +66,25 @@ const EducationSkills = () => {
               </div>
             </Col>
             <Col lg={8} md={8}>
+            {skills.map((skill) => (
               <div className="skill-bar">
                 <Row className="skill-box">
                   <Col xs={1}>
-                    <span>90%</span>
+                    <span>{skill.percent}%</span>
                   </Col>
                   <Col>
                     <div className="bar">
                       <div className="info">
-                        <span>HTML</span>
+                        <span>{skill.title}</span>
                       </div>
-                      <div className="progress-line html">
+                      <div className={`progress-line width${skill.percent}`}>
                         <span></span>
                       </div>
                     </div>
                   </Col>
                 </Row>
               </div>
-              <div className="skill-bar">
-                <Row className="skill-box">
-                  <Col xs={1}>
-                    <span>75%</span>
-                  </Col>
-                  <Col>
-                    <div className="bar">
-                      <div className="info">
-                        <span>React js</span>
-                      </div>
-                      <div className="progress-line reactjs">
-                        <span></span>
-                      </div>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
-              <div className="skill-bar">
-                <Row className="skill-box">
-                  <Col xs={1}>
-                    <span>85%</span>
-                  </Col>
-                  <Col>
-                    <div className="bar">
-                      <div className="info">
-                        <span>Wordpress</span>
-                      </div>
-                      <div className="progress-line Wordpress">
-                        <span></span>
-                      </div>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
-              <div className="skill-bar">
-                <Row className="skill-box">
-                  <Col xs={1}>
-                    <span>88%</span>
-                  </Col>
-                  <Col>
-                    <div className="bar">
-                      <div className="info">
-                        <span>UI/UX</span>
-                      </div>
-
-                      <div className="progress-line ui-ux">
-                        <span></span>
-                      </div>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
-              <div className="skill-bar">
-                <Row className="skill-box">
-                  <Col xs={1}>
-                    <span>70%</span>
-                  </Col>
-                  <Col>
-                    <div className="bar">
-                      <div className="info">
-                        <span>Css3</span>
-                      </div>
-                      <div className="progress-line css3">
-                        <span></span>
-                      </div>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
+            ))}
             </Col>
           </Row>
         </Container>
