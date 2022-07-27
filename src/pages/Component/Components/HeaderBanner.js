@@ -25,12 +25,9 @@ const HeaderBanner = () => {
 
               <h1 data-aos="flip-down">Phil Ernst</h1>
               <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit sed do
-                eiusmod
+                I’m passionate about creating truly beautiful digital solutions
                 <br />
-                tempor incididunt ut dolor the sit amet consectetur adipisicing
-                <br />
-                elit sed do consectetur labore et dolo...
+                that give users a memorable experience with technology
               </p>
               <button data-aos="fade-up" className="BtnView">
                 VIEW MORE
