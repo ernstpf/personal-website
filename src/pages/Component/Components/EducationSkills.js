@@ -43,7 +43,8 @@ const skills = [
 const EducationSkills = () => {
   return (
     <>
-      <div className="educationSkill headding">
+    <div id="Skills"></div>
+      <div className="educationSkill heading">
         <h1 className="text-center title">Education &amp; Skills</h1>
       </div>
       <div>

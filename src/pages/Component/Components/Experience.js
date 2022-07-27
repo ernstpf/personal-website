@@ -28,7 +28,8 @@ const jobs = [
 const Experience = () => {
   return (
     <>
-      <div id="Experience" className="exp-main headding">
+    <div id="Experience"></div>
+      <div className="exp-main heading">
         <div className="exp">
           <h1 className="text-center title">Experience</h1>
         </div>

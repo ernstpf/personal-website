@@ -5,8 +5,9 @@ import Aboutus from "../../../assets/Images/About/phil.jpg";
 const About = () => {
   return (
     <>
-      <div className="container" id="About">
-        <div className="about headding " data-aos="fade-right">
+    <div id="About"></div>
+      <div className="container">
+        <div className="about heading " data-aos="fade-right">
           <Row className="about-main">
             <Col md={5}>
               <div className="about-img ">
