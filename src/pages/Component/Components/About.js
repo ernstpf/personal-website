@@ -1,11 +1,12 @@
 import React from "react";
 import { Row, Col, Image } from "react-bootstrap";
 import Aboutus from "../../../assets/Images/About/phil.jpg";
+import { BsDownload } from "react-icons/bs";
 
 const About = () => {
   return (
     <>
-    <div id="About"></div>
+      <div id="About"></div>
       <div className="container">
         <div className="about heading " data-aos="fade-right">
           <Row className="about-main">
@@ -70,7 +71,11 @@ const About = () => {
                   </Col>
                 </Row>
               </div>
-              <button className="BtnView">Resume</button>
+              <a href="./Phil_Ernst_Resume.pdf" download>
+                <button className="BtnView">
+                  Resume <BsDownload size={15} />
+                </button>
+              </a>
             </Col>
           </Row>
         </div>
