@@ -898,12 +898,14 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
   background-color: #000;
 }
 
-.f-icon span {
+.f-icon a {
   font-size: 18px;
   margin-bottom: 10px;
   opacity: 0.5;
   font-weight: 300;
   line-height: 2;
+  text-decoration: none;
+  color: #fff;
 }
 
 .f-end {

@@ -29,9 +29,11 @@ const HeaderBanner = () => {
                 <br />
                 that give users a memorable digital experience
               </p>
+              <a href='#About'>
               <button data-aos="fade-up" className="BtnView">
                 VIEW MORE
               </button>
+              </a>
             </div>
           </div>
         </div>
