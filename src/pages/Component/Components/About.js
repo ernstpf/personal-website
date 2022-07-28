@@ -29,7 +29,7 @@ const About = () => {
                 <h1 className="about-title">About Me</h1>
                 <p className="about-subtitle">
                   Software Engineer with experience building beautiful software.
-                  Skilled in ReactJS, NodeJS, JavaScript, HTML, CSS, PeopleCode
+                  Skilled in React, NodeJS, JavaScript, HTML, CSS, PeopleCode
                   (Java-like language), SQL, SQR, and IT Service Management.
                   Strong information technology professional with an MBA from
                   James Madison University.

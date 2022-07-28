@@ -501,7 +501,7 @@ hr {
   font-weight: 600;
 }
 .skill-bar .bar {
-  margin: 15px 15px;
+  margin: 30px 30px;
 }
 .skill-bar .bar:first-child {
   margin-top: 0px;

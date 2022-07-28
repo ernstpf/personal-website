@@ -23,11 +23,11 @@ const skills = [
     percent: "90",
   },
   {
-    title: "React.JS",
+    title: "React",
     percent: "80",
   },
   {
-    title: "Node.JS",
+    title: "NodeJS",
     percent: "75",
   },
   {
@@ -53,22 +53,22 @@ const EducationSkills = () => {
             <Col lg={4} md={4} className="educationColBox">
               <div className="education-box">
                 {degrees.map((degree, index) => (
-                  <>
+                  <div key={degree.type}>
                     <div className="education">
                       <h6>{degree.school}</h6>
                       <h2>{degree.type}</h2>
                       {degree.concentrations.map((concentration) => (
-                        <h3>{concentration}</h3>
+                        <h3 key={concentration}>{concentration}</h3>
                       ))}
                     </div>
                     {index !== degrees.length - 1 ? <hr /> : ""}
-                  </>
+                  </div>
                 ))}
               </div>
             </Col>
             <Col lg={8} md={8}>
             {skills.map((skill) => (
-              <div className="skill-bar">
+              <div className="skill-bar" key={skill.title}>
                 <Row className="skill-box">
                   <Col xs={1}>
                     <span>{skill.percent}%</span>
