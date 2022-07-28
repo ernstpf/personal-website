@@ -28,7 +28,7 @@ const About = () => {
             </Col>
             <Col md={7} className="abouttextbox">
               <div>
-                <h1 className="about-title">About Me</h1>
+                <h2 className="about-title">About Me</h2>
                 <p className="about-subtitle">
                   Software Engineer with experience building beautiful software.
                   Skilled in React, NodeJS, JavaScript, HTML, CSS, PeopleCode
@@ -38,7 +38,7 @@ const About = () => {
                 </p>
               </div>
               <div className="about-psl-info">
-                <h1 className="about-sub-info">Personal Info</h1>
+                <h3 className="about-sub-info">Personal Info</h3>
                 <Row>
                   <Col>
                     <div className="about-list">

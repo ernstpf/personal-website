@@ -31,7 +31,7 @@ const Experience = () => {
     <div id="Experience"></div>
       <div className="exp-main heading">
         <div className="exp">
-          <h1 className="text-center title">Experience</h1>
+          <h2 className="text-center title">Experience</h2>
         </div>
         <Container>
           <Row>
@@ -40,7 +40,7 @@ const Experience = () => {
                 <div className="exp-card" data-aos="flip-left">
                   <Card className="exp-block">
                     <Card.Body className="exp-body">
-                      <Card.Title className="exp-title">
+                      <Card.Title className="exp-title" role="heading">
                         {job.title}
                         <p>
                           {job.dates} | {job.employer}

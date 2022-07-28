@@ -45,7 +45,7 @@ const EducationSkills = () => {
     <>
     <div id="Skills"></div>
       <div className="educationSkill heading">
-        <h1 className="text-center title">Education &amp; Skills</h1>
+        <h2 className="text-center title">Education &amp; Skills</h2>
       </div>
       <div>
         <Container>
@@ -79,7 +79,7 @@ const EducationSkills = () => {
                         <span>{skill.title}</span>
                       </div>
                       <div className={`progress-line width${skill.percent}`}>
-                        <span></span>
+                        <span role="presentation"></span>
                       </div>
                     </div>
                   </Col>

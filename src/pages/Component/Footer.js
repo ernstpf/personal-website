@@ -12,33 +12,38 @@ export default class Footer extends Component {
                 <Col lg={6} md={12}>
                   <div className="f-left">
                     <div className="f-content">
-                      <h1 className="F-contact">Contact Me</h1>
+                      <h2 className="F-contact">Contact Me</h2>
                     </div>
                     <div className="">
                       <h6 className="f-icon">
-                        <i className="icon">
-                          <BsEnvelope size={20} />
+                        <i className="icon" role="presentation">
+                          <BsEnvelope size={20} role="presentation" />
                         </i>
                         <a href="mailto:phil@philernst.com">
                           phil@philernst.com
                         </a>
                       </h6>
                       <h6 className="f-icon">
-                        <i className="icon">
-                          <BsLinkedin size={20} />
+                        <i className="icon" role="presentation">
+                          <BsLinkedin size={20} role="presentation" />
                         </i>
                         <a
                           href="https://www.linkedin.com/in/phil-ernst/"
                           target="_blank"
+                          aria-label="Opens in new tab"
                         >
                           linkedin.com/in/phil-ernst
                         </a>
                       </h6>
                       <h6 className="f-icon">
-                        <i className="icon">
-                          <BsGithub size={20} />
+                        <i className="icon" role="presentation">
+                          <BsGithub size={20} role="presentation" />
                         </i>
-                        <a href="https://github.com/ernstpf" target="_blank">
+                        <a
+                          href="https://github.com/ernstpf"
+                          target="_blank"
+                          aria-label="Opens in new tab"
+                        >
                           github.com/ernstpf
                         </a>
                       </h6>
@@ -56,6 +61,8 @@ export default class Footer extends Component {
                               className="form-control inputbox "
                               id="name"
                               placeholder="Name"
+                              aria-describedby="Name"
+                              aria-required="true"
                               required
                             />
                           </div>
@@ -65,6 +72,8 @@ export default class Footer extends Component {
                               className="form-control inputbox"
                               id="phone"
                               placeholder="Phone"
+                              aria-describedby="Phone"
+                              aria-required="true"
                               required
                             />
                           </div>
@@ -74,6 +83,8 @@ export default class Footer extends Component {
                               className="form-control inputbox"
                               id="email"
                               placeholder="E-mail"
+                              aria-describedby="E-mail"
+                              aria-required="true"
                               required
                             />
                           </div>
@@ -83,6 +94,8 @@ export default class Footer extends Component {
                               className="form-control inputbox "
                               id="subject"
                               placeholder="Subject"
+                              aria-describedby="Subject"
+                              aria-required="true"
                               required
                             />
                           </div>
@@ -93,6 +106,8 @@ export default class Footer extends Component {
                               className="form-control inputboxmessage inputbox"
                               id="message"
                               placeholder="Meassage*"
+                              aria-describedby="Message"
+                              aria-required="true"
                               required
                             />
                             <div className="invalid-feedback">

@@ -806,9 +806,6 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
 /* ------------------------------------ End RecentArtical ------------------------------------ */
 
 /* ------------------------------------  Footer ------------------------------------ */
-  :focus-visible {
-    outline: none;
-  }
 
 .btn {
   float: left;
@@ -1822,4 +1819,31 @@ padding-bottom: 10px;
     padding-top: 40px;
     padding-bottom: 40px;
   }
+}
+
+/* ------------------------------------ Accessibility ------------------------------------ */
+button:focus-visible {
+  /* remove default focus style */
+  outline: none;
+  /* custom focus styles */
+  box-shadow: 0 0 2px 2px #00b074;
+  color: #00b074;
+}
+.skipLink {
+  background-color: #00b074;
+  color: #fff;
+  left: 5px;
+  padding: 10px;
+  position: absolute;
+  text-decoration: none;
+  top: 5px;
+  transform: translateX(-110%);
+  transition: transform 0.4s;
+  z-index: 10;
+}
+.skipLink:hover {
+  color: #fff;
+}
+.skipLink:focus {
+  transform: translateX(0%);
 }

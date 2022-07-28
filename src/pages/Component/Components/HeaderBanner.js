@@ -25,7 +25,7 @@ const HeaderBanner = () => {
 
               <h1 data-aos="flip-down">Phil Ernst</h1>
               <p data-aos="fade-up">
-                I’m passionate about creating truly beautiful digital solutions
+                I&apos;m passionate about creating truly beautiful digital solutions
                 <br />
                 that give users a memorable digital experience
               </p>

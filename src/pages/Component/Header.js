@@ -5,6 +5,7 @@ import Links from "./Links";
 const Header = () => {
   return (
     <>
+      <a className="skipLink" href='#Home'>Skip to content</a>
       <div className="header">
         <Navbar collapseOnSelect expand="lg">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
