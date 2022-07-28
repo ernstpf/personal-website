@@ -71,7 +71,7 @@ const About = () => {
                   </Col>
                 </Row>
               </div>
-              <a href="./Phil_Ernst_Resume.pdf" download>
+              <a href="./Phil_Ernst_resume.pdf" download>
                 <button className="BtnView">
                   Resume <BsDownload size={15} />
                 </button>
