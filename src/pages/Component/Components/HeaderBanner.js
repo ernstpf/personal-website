@@ -15,7 +15,7 @@ const HeaderBanner = () => {
               <img
                 src={Banner}
                 className=" img-fluid  mx-auto width: 100% "
-                alt="Banner"
+                alt="Headshot of Phil Ernst"
               ></img>
             </div>
           </span>

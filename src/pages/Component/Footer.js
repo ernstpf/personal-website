@@ -54,7 +54,7 @@ export default class Footer extends Component {
                             <input
                               type="text"
                               className="form-control inputbox "
-                              id="validationCustom01"
+                              id="name"
                               placeholder="Name"
                               required
                             />
@@ -63,7 +63,7 @@ export default class Footer extends Component {
                             <input
                               type="text"
                               className="form-control inputbox"
-                              id="validationCustom01"
+                              id="phone"
                               placeholder="Phone"
                               required
                             />
@@ -72,7 +72,7 @@ export default class Footer extends Component {
                             <input
                               type="text"
                               className="form-control inputbox"
-                              id="validationCustom02"
+                              id="email"
                               placeholder="E-mail"
                               required
                             />
@@ -81,7 +81,7 @@ export default class Footer extends Component {
                             <input
                               type="text"
                               className="form-control inputbox "
-                              id="validationCustom01"
+                              id="subject"
                               placeholder="Subject"
                               required
                             />
@@ -91,7 +91,7 @@ export default class Footer extends Component {
                             <textarea
                               type="text"
                               className="form-control inputboxmessage inputbox"
-                              id="validationCustom03"
+                              id="message"
                               placeholder="Meassage*"
                               required
                             />

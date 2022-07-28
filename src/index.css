@@ -42,6 +42,9 @@ body {
   overflow-x: hidden;
   margin: 0 auto;
 }
+p{
+  color: #757575;
+}
 .header {
   position: sticky;
   top: 0;
@@ -268,10 +271,8 @@ body {
 
 .about-subtitle {
   font-size: 16px;
-  color: rgb(0, 0, 0);
   line-height: 1.375;
   text-align: left;
-  opacity: 0.5;
   letter-spacing: 0.5px;
 }
 
@@ -288,7 +289,7 @@ body {
 }
 .perName2 {
   font-size: 16px;
-  color: #808080;
+  color: #595959;
   font-weight: 500;
 }
 /* ------------------------ End About us ------------------------ */
@@ -424,7 +425,6 @@ hr {
 }
 .exp-text {
   font-size: 16px;
-  opacity: 0.5;
 }
 .exp-title {
   font-size: 20px;
@@ -433,7 +433,6 @@ hr {
 .exp-title p {
   font-size: 14px;
   font-weight: 500;
-  opacity: 0.5;
   padding-top: 9px;
 }
 
@@ -472,9 +471,9 @@ hr {
 .education h3 {
   font-size: 14px;
   letter-spacing: 0.5px;
-  opacity: 0.5;
   font-weight: 600;
   margin: 0 auto;
+  color: #757575
 }
 
 .education-box {
@@ -501,7 +500,7 @@ hr {
   font-weight: 600;
 }
 .skill-bar .bar {
-  margin: 30px 30px;
+  margin: 30px 30px 15px;
 }
 .skill-bar .bar:first-child {
   margin-top: 0px;

@@ -18,6 +18,7 @@ const About = () => {
                   data-aos-delay="100"
                   className="d-block img-fluid mx-auto rounded-circle"
                   src={Aboutus}
+                  alt='Headshot of Phil Ernst'
                 />
                 <div className="text-center About-name">
                   <h6>Phil Ernst</h6>
