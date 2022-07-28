@@ -42,7 +42,7 @@ body {
   overflow-x: hidden;
   margin: 0 auto;
 }
-p{
+p {
   color: #757575;
 }
 .header {
@@ -141,7 +141,7 @@ p{
   position: relative;
 }
 
-.img-bnr-text h5 {
+.img-bnr-text .job-title {
   font-size: 24px;
   color: #4d4d4d;
   font-weight: 500;
@@ -238,7 +238,7 @@ p{
   text-align: center;
   margin: 0 0 !important;
 }
-.About-name h6 {
+.About-name h2 {
   font-size: 30px;
   font-weight: 600;
   margin-top: 10px;
@@ -383,7 +383,7 @@ p{
   padding-top: 40px;
   padding-bottom: 40px;
 }
-.exp-main h1 {
+.exp-main h2 {
   color: #fff;
   margin-bottom: 50px;
   position: relative;
@@ -439,16 +439,16 @@ hr {
 /* ------------------------ End Experience ------------------------ */
 
 /* ------------------------  Education & Skills ------------------------ */
-.educationColBox{
+.educationColBox {
   padding: 0;
 }
 .education-box-main {
   margin: 0 auto;
 }
-.education-box-main .col{
+.education-box-main .col {
   padding: 0;
 }
-.education h6 {
+.education .school {
   font-size: 14px;
   text-align: center;
   vertical-align: middle;
@@ -462,18 +462,18 @@ hr {
   padding-bottom: 4px;
   margin: 0 auto;
 }
-.education h2 {
+.education h3 {
   font-size: 20px;
   margin-top: 15px;
   margin-bottom: 10px;
 }
 
-.education h3 {
+.education .concentration {
   font-size: 14px;
   letter-spacing: 0.5px;
   font-weight: 600;
   margin: 0 auto;
-  color: #757575
+  color: #757575;
 }
 
 .education-box {
@@ -707,9 +707,8 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
   position: relative;
   margin-bottom: 0;
   overflow: hidden;
-
 }
-.insta{
+.insta {
   margin: -10px;
 }
 .blog-post-hover {
@@ -836,6 +835,10 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
   line-height: 14px;
 }
 
+.f-left p{
+  color: #fff;
+}
+
 .F-contact {
   font-size: 40px;
   font-weight: 600;
@@ -925,9 +928,9 @@ img.img-fluid.mx-auto.portfolooimgeffect.aos-init {
   height: 165px;
   overflow: hidden;
 }
-.form-control{
+.form-control {
   border-radius: 0px !important;
-  }
+}
 .f-link {
   text-align: center;
   background-color: #00b074;
@@ -1639,9 +1642,6 @@ padding-bottom: 10px;
     margin-left: 30px;
     margin-right: 30px;
   }
-  .About-name h6 {
-    font-size: 18px;
-  }
   .About-name p {
     font-size: 12px;
     margin-top: -5px;
@@ -1846,4 +1846,14 @@ button:focus-visible {
 }
 .skipLink:focus {
   transform: translateX(0%);
+}
+.visuallyhidden {
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }

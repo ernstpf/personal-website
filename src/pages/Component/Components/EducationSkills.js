@@ -10,10 +10,7 @@ const degrees = [
   {
     school: "James Madison University",
     type: "B.S.",
-    concentrations: [
-      "Major: Computer Science",
-      "Major: Media Arts & Design",
-    ],
+    concentrations: ["Major: Computer Science", "Major: Media Arts & Design"],
   },
 ];
 
@@ -43,7 +40,7 @@ const skills = [
 const EducationSkills = () => {
   return (
     <>
-    <div id="Skills"></div>
+      <div id="Skills"></div>
       <div className="educationSkill heading">
         <h2 className="text-center title">Education &amp; Skills</h2>
       </div>
@@ -55,10 +52,10 @@ const EducationSkills = () => {
                 {degrees.map((degree, index) => (
                   <div key={degree.type}>
                     <div className="education">
-                      <h6>{degree.school}</h6>
-                      <h2>{degree.type}</h2>
+                      <span className="school">{degree.school}</span>
+                      <h3>{degree.type}</h3>
                       {degree.concentrations.map((concentration) => (
-                        <h3 key={concentration}>{concentration}</h3>
+                        <p className="concentration" key={concentration}>{concentration}</p>
                       ))}
                     </div>
                     {index !== degrees.length - 1 ? <hr /> : ""}
@@ -67,25 +64,25 @@ const EducationSkills = () => {
               </div>
             </Col>
             <Col lg={8} md={8}>
-            {skills.map((skill) => (
-              <div className="skill-bar" key={skill.title}>
-                <Row className="skill-box">
-                  <Col xs={1}>
-                    <span>{skill.percent}%</span>
-                  </Col>
-                  <Col>
-                    <div className="bar">
-                      <div className="info">
-                        <span>{skill.title}</span>
+              {skills.map((skill) => (
+                <div className="skill-bar" key={skill.title}>
+                  <Row className="skill-box">
+                    <Col xs={1}>
+                      <span>{skill.percent}%</span>
+                    </Col>
+                    <Col>
+                      <div className="bar">
+                        <div className="info">
+                          <span>{skill.title}</span>
+                        </div>
+                        <div className={`progress-line width${skill.percent}`}>
+                          <span role="presentation"></span>
+                        </div>
                       </div>
-                      <div className={`progress-line width${skill.percent}`}>
-                        <span role="presentation"></span>
-                      </div>
-                    </div>
-                  </Col>
-                </Row>
-              </div>
-            ))}
+                    </Col>
+                  </Row>
+                </div>
+              ))}
             </Col>
           </Row>
         </Container>

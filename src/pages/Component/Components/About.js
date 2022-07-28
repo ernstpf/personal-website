@@ -18,10 +18,10 @@ const About = () => {
                   data-aos-delay="100"
                   className="d-block img-fluid mx-auto rounded-circle"
                   src={Aboutus}
-                  alt='Headshot of Phil Ernst'
+                  alt="Headshot of Phil Ernst"
                 />
                 <div className="text-center About-name">
-                  <h6>Phil Ernst</h6>
+                  <h2>Phil Ernst</h2>
                   <p>Software Engineer</p>
                 </div>
               </div>
@@ -74,7 +74,7 @@ const About = () => {
               </div>
               <a href="./Phil_Ernst_resume.pdf" download>
                 <button className="BtnView">
-                  Resume <BsDownload size={15} />
+                  Resume <BsDownload size={15} role="presentation" />
                 </button>
               </a>
             </Col>

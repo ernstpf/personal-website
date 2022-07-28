@@ -14,16 +14,16 @@ export default class Footer extends Component {
                     <div className="f-content">
                       <h2 className="F-contact">Contact Me</h2>
                     </div>
-                    <div className="">
-                      <h6 className="f-icon">
+                    <div>
+                      <h3 className="f-icon">
                         <i className="icon" role="presentation">
                           <BsEnvelope size={20} role="presentation" />
                         </i>
                         <a href="mailto:phil@philernst.com">
                           phil@philernst.com
                         </a>
-                      </h6>
-                      <h6 className="f-icon">
+                      </h3>
+                      <h3 className="f-icon">
                         <i className="icon" role="presentation">
                           <BsLinkedin size={20} role="presentation" />
                         </i>
@@ -34,8 +34,8 @@ export default class Footer extends Component {
                         >
                           linkedin.com/in/phil-ernst
                         </a>
-                      </h6>
-                      <h6 className="f-icon">
+                      </h3>
+                      <p className="f-icon">
                         <i className="icon" role="presentation">
                           <BsGithub size={20} role="presentation" />
                         </i>
@@ -46,7 +46,7 @@ export default class Footer extends Component {
                         >
                           github.com/ernstpf
                         </a>
-                      </h6>
+                      </p>
                     </div>
                   </div>
                 </Col>
@@ -56,57 +56,59 @@ export default class Footer extends Component {
                       <div>
                         <form className="row g-3 needs-validation formContactus">
                           <div className="col-md-6  col-sm-6 col-6">
+                            <label for="name" class="visuallyhidden">
+                              Name
+                            </label>
                             <input
                               type="text"
                               className="form-control inputbox "
                               id="name"
                               placeholder="Name"
-                              aria-describedby="Name"
                               aria-required="true"
                               required
                             />
                           </div>
                           <div className="col-md-6  col-sm-6 col-6">
+                          <label for="phone" class="visuallyhidden">Phone</label>
                             <input
                               type="text"
                               className="form-control inputbox"
                               id="phone"
                               placeholder="Phone"
-                              aria-describedby="Phone"
                               aria-required="true"
                               required
                             />
                           </div>
                           <div className="col-md-6 col-sm-6 col-6">
+                          <label for="email" class="visuallyhidden">E-mail</label>
                             <input
                               type="text"
                               className="form-control inputbox"
                               id="email"
                               placeholder="E-mail"
-                              aria-describedby="E-mail"
                               aria-required="true"
                               required
                             />
                           </div>
                           <div className="col-md-6 col-sm-6 col-6">
+                          <label for="subject" class="visuallyhidden">Subject</label>
                             <input
                               type="text"
                               className="form-control inputbox "
                               id="subject"
                               placeholder="Subject"
-                              aria-describedby="Subject"
                               aria-required="true"
                               required
                             />
                           </div>
 
                           <div className="col-md-12">
+                          <label for="message" class="visuallyhidden">Message</label>
                             <textarea
                               type="text"
                               className="form-control inputboxmessage inputbox"
                               id="message"
                               placeholder="Meassage*"
-                              aria-describedby="Message"
                               aria-required="true"
                               required
                             />
