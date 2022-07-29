@@ -40,7 +40,7 @@ const About = () => {
               <div className="about-psl-info">
                 <h3 className="about-sub-info">Personal Info</h3>
                 <Row>
-                  <Col>
+                  <Col lg={4} md={4} sm={4}>
                     <div className="about-list">
                       <span className="perName1">Name : </span>
                       <span className="perName2">Phil Ernst</span>
@@ -73,7 +73,7 @@ const About = () => {
                 </Row>
               </div>
               <a href="./Phil_Ernst_resume.pdf" download>
-                <button className="BtnView">
+                <button className="BtnView resumeButton">
                   Resume <BsDownload size={15} role="presentation" />
                 </button>
               </a>

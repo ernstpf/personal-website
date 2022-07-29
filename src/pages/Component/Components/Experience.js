@@ -36,7 +36,7 @@ const Experience = () => {
         <Container>
           <Row>
             {jobs.map((job) => (
-              <Col lg={4} md={4} sm={4} key={job.title}>
+              <Col lg={4} md={6} sm={12} key={job.title}>
                 <div className="exp-card" data-aos="flip-left">
                   <Card className="exp-block">
                     <Card.Body className="exp-body">

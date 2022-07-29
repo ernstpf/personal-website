@@ -55,7 +55,7 @@ export default class Footer extends Component {
                     <Col xl={12} md={12} lg={12} sm={12}>
                       <div>
                         <form className="row g-3 needs-validation formContactus">
-                          <div className="col-md-6  col-sm-6 col-6">
+                          <div className="col-md-6 col-sm-6 col-12">
                             <label for="name" class="visuallyhidden">
                               Name
                             </label>
@@ -68,7 +68,7 @@ export default class Footer extends Component {
                               required
                             />
                           </div>
-                          <div className="col-md-6  col-sm-6 col-6">
+                          <div className="col-md-6 col-sm-6 col-12">
                           <label for="phone" class="visuallyhidden">Phone</label>
                             <input
                               type="text"
@@ -79,7 +79,7 @@ export default class Footer extends Component {
                               required
                             />
                           </div>
-                          <div className="col-md-6 col-sm-6 col-6">
+                          <div className="col-md-6 col-sm-6 col-12">
                           <label for="email" class="visuallyhidden">E-mail</label>
                             <input
                               type="text"
@@ -90,7 +90,7 @@ export default class Footer extends Component {
                               required
                             />
                           </div>
-                          <div className="col-md-6 col-sm-6 col-6">
+                          <div className="col-md-6 col-sm-6 col-12">
                           <label for="subject" class="visuallyhidden">Subject</label>
                             <input
                               type="text"
