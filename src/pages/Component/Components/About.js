@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Image } from "react-bootstrap";
-import Aboutus from "../../../assets/Images/About/phil.jpg";
+import Aboutus from "../../../assets/Images/About/phil.webp";
 import { BsDownload } from "react-icons/bs";
 
 const About = () => {
@@ -19,6 +19,8 @@ const About = () => {
                   className="d-block img-fluid mx-auto rounded-circle"
                   src={Aboutus}
                   alt="Headshot of Phil Ernst"
+                  width="804"
+                  height="804"
                 />
                 <div className="text-center about-name">
                   <h2>Phil Ernst</h2>

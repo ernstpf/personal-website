@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import Banner from "../../../assets/Images/Banner/Banner.png";
+import Banner from "../../../assets/Images/Banner/Banner.webp";
 import Aos from "aos";
 import "aos/dist/aos.css";
 const HeaderBanner = () => {
@@ -14,8 +14,10 @@ const HeaderBanner = () => {
             <div className="">
               <img
                 src={Banner}
-                className=" img-fluid  mx-auto width: 100% "
+                className="img-fluid  mx-auto width: 100% "
                 alt="Headshot of Phil Ernst"
+                width='1920'
+                height='800'
               ></img>
             </div>
           </span>
