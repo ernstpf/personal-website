@@ -20,7 +20,7 @@ const About = () => {
                   src={Aboutus}
                   alt="Headshot of Phil Ernst"
                 />
-                <div className="text-center About-name">
+                <div className="text-center about-name">
                   <h2>Phil Ernst</h2>
                   <p>Software Engineer</p>
                 </div>

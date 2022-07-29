@@ -12,7 +12,7 @@ export default class Footer extends Component {
                 <Col lg={6} md={12}>
                   <div className="f-left">
                     <div className="f-content">
-                      <h2 className="F-contact">Contact Me</h2>
+                      <h2 className="f-contact">Contact Me</h2>
                     </div>
                     <div>
                       <h3 className="f-icon">
