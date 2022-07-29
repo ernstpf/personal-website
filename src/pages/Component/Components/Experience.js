@@ -7,28 +7,28 @@ const jobs = [
     employer: "CUED-In Inc.",
     dates: "2020 - present",
     description:
-      "Build job posting web app using React, Node for startup. Collaborate with engineers and designers to plan and code functionality. https://cuedin.us",
+      "Build job posting web app using React and NodeJS for a startup company. Collaborate with engineers and designers to plan and code functionality. You can see it in action here: <a href='https://cuedin.us' target='blank'>https://cuedin.us</a>",
   },
   {
     title: "Software Engineer",
     employer: "James Madison University",
     dates: "2015 – present",
     description:
-      "Support enterprise-wide software. Collaborate with business analysts, designers, and users to understand requirements to create or enhance features. Develop applications based on technical requirements using a Java-like language (PeopleCode), SQR, SQL, and shell scripting",
+      "Support enterprise-wide software. Collaborate with business analysts, designers, and users to understand requirements to create or enhance features. Develop applications based on technical requirements using a Java-like language (PeopleCode), SQR, SQL, and shell scripting.",
   },
   {
     title: "Web Developer",
     employer: "James Madison University",
     dates: "2012 – 2015",
     description:
-      "Developed websites (10+ per year) using Cascade CMS with HTML, CSS, JavaScript, and Velocity. Collaborated with designers and users to build and maintain websites. Designed and coded reusable features used across multiple websites",
+      "Developed 10+ websites per year using Cascade CMS with HTML, CSS, JavaScript, and Velocity. Collaborated with designers and users to build and maintain websites. Designed and coded reusable features used across multiple websites.",
   },
 ];
 
 const Experience = () => {
   return (
     <>
-    <div id="Experience"></div>
+      <div id="Experience"></div>
       <div className="exp-main heading">
         <div className="exp">
           <h2 className="text-center title">Experience</h2>
@@ -47,9 +47,10 @@ const Experience = () => {
                         </p>
                       </Card.Title>
                       <hr />
-                      <Card.Text className="exp-text">
-                        {job.description}
-                      </Card.Text>
+                      <Card.Text
+                        className="exp-text"
+                        dangerouslySetInnerHTML={{ __html: job.description }}
+                      />
                     </Card.Body>
                   </Card>
                 </div>

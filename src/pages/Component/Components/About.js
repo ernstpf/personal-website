@@ -30,11 +30,10 @@ const About = () => {
               <div>
                 <h2 className="about-title">About Me</h2>
                 <p className="about-subtitle">
-                  Software Engineer with experience building beautiful software.
-                  Skilled in React, NodeJS, JavaScript, HTML, CSS, PeopleCode
-                  (Java-like language), SQL, SQR, and IT Service Management.
-                  Strong information technology professional with an MBA from
-                  James Madison University.
+                  I'm a software engineer with experience building beautiful
+                  software. I have experience with React, NodeJS, JavaScript,
+                  HTML, CSS, PeopleCode (Java-like language), SQL, SQR, and IT
+                  Service Management.
                 </p>
               </div>
               <div className="about-psl-info">
