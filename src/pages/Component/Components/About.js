@@ -59,16 +59,26 @@ const About = () => {
                     <div className=" about-list">
                       <span className="perName1">LinkedIn : </span>
                       <span className="perName2">
-                        linkedin.com/in/phil-ernst
+                        <a href="https://www.linkedin.com/in/phil-ernst/">
+                          linkedin.com/in/phil-ernst
+                        </a>
                       </span>
                     </div>
                     <div className=" about-list">
                       <span className="perName1">GitHub : </span>
-                      <span className="perName2">github.com/ernstpf</span>
+                      <span className="perName2">
+                        <a href="https://github.com/ernstpf">
+                          github.com/ernstpf
+                        </a>
+                      </span>
                     </div>
                     <div className=" about-list">
                       <span className="perName1">E-mail : </span>
-                      <span className="perName2">phil@philernst.com</span>
+                      <span className="perName2">
+                        <a href="mailto:phil@philernst.com">
+                          phil@philernst.com
+                        </a>
+                      </span>
                     </div>
                   </Col>
                 </Row>

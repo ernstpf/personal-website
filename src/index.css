@@ -38,7 +38,8 @@ body {
   margin: 0 auto;
 }
 p,
-a {
+a,
+a:hover {
   color: #757575;
 }
 .header {
