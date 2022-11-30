@@ -87,7 +87,7 @@ const About = () => {
                 <button className="BtnView resumeButton">
                   Resume <BsDownload size={15} role="presentation" />
                 </button>
-              </a> */}
+              </a>  */}
             </Col>
           </Row>
         </div>
