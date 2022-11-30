@@ -40,11 +40,11 @@ export default class Footer extends Component {
                           <BsGithub size={20} role="presentation" />
                         </i>
                         <a
-                          href="https://github.com/ernstpf"
+                          href="https://github.com/philernst"
                           target="_blank"
                           aria-label="Opens in new tab"
                         >
-                          github.com/ernstpf
+                          github.com/philernst
                         </a>
                       </p>
                     </div>

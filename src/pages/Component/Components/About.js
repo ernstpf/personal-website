@@ -67,8 +67,8 @@ const About = () => {
                     <div className=" about-list">
                       <span className="perName1">GitHub : </span>
                       <span className="perName2">
-                        <a href="https://github.com/ernstpf">
-                          github.com/ernstpf
+                        <a href="https://github.com/philernst">
+                          github.com/philernst
                         </a>
                       </span>
                     </div>
@@ -83,11 +83,11 @@ const About = () => {
                   </Col>
                 </Row>
               </div>
-              <a href="./Phil_Ernst_resume.pdf" download>
+              {/* <a href="./Phil_Ernst_resume.pdf" download>
                 <button className="BtnView resumeButton">
                   Resume <BsDownload size={15} role="presentation" />
                 </button>
-              </a>
+              </a> */}
             </Col>
           </Row>
         </div>
