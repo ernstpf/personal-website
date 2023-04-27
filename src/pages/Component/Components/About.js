@@ -32,10 +32,13 @@ const About = () => {
               <div>
                 <h2 className="about-title">About Me</h2>
                 <p className="about-subtitle">
-                  I'm a software engineer with experience building beautiful
-                  software. I have experience with React, NodeJS, JavaScript,
-                  HTML, CSS, PeopleCode (Java-like language), SQL, SQR, and IT
-                  Service Management.
+                  I'm a problem solver who builds web solutions that users enjoy
+                  interacting with. At GitHub I launch web pages and hone the launch process. At CUED-In Inc, I redesigned marketing pages resulting in a 50% increase in user engagement using Tailwind UI components. As a Software Engineer at James Madison University, I collaborated with cross-functional teams to develop technical modules and features for enterprise ERP software.
+
+
+
+
+
                 </p>
               </div>
               <div className="about-psl-info">

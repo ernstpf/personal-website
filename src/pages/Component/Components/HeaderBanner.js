@@ -23,7 +23,7 @@ const HeaderBanner = () => {
           </span>
           <div className="img-bnr-text ">
             <div>
-              <p className='job-title' data-aos="fade-down">Software Engineer</p>
+              <p className='job-title' data-aos="fade-down">Web Producer</p>
 
               <h1 data-aos="flip-down">Phil Ernst</h1>
               <p data-aos="fade-up">
