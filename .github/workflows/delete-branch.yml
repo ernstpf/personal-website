@@ -1,0 +1,20 @@
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - main
+
+jobs:
+  delete_merged_branch:
+    runs-on: ubuntu-latest
+    if: github.event.pull_request.merged == true
+    steps:
+      - name: Fetch latest changes
+        uses: actions/checkout@v2
+        with:
+          ref: ${{ github.event.pull_request.base.ref }}
+          fetch-depth: 0
+      - name: Delete merged branch
+        run: |
+          git fetch --prune
+          git branch -d ${{ github.event.pull_request.head.ref }}
