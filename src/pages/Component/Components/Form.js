@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import axios from 'axios'
+require('dotenv').config()
+const SEND_EMAIL_ENDPOINT = process.env.SEND_EMAIL_ENDPOINT
 
 function Form() {
     const [formData, setFormData] = useState({
@@ -19,7 +21,7 @@ function Form() {
         event.preventDefault()
         try {
             const response = await axios.post(
-                'https:www.philernst.com:5000/send',
+                SEND_EMAIL_ENDPOINT,
                 formData
             )
             console.log(response.data)
