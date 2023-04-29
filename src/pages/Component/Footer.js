@@ -1,9 +1,11 @@
 import { Component } from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { BsGithub, BsLinkedin, BsEnvelope } from 'react-icons/bs'
+import Form from "./Components/Form";
+
 export default class Footer extends Component {
     render() {
-      
+
         const today = new Date()
 
         return (
@@ -74,7 +76,7 @@ export default class Footer extends Component {
                                     </div>
                                 </Col>
                                 <Col lg={6} md={12} className="f-end">
-                                    <Row>
+                                    {/* <Row>
                                         <Col xl={12} md={12} lg={12} sm={12}>
                                             <div>
                                                 <form className="row g-3 needs-validation formContactus">
@@ -172,7 +174,10 @@ export default class Footer extends Component {
                                                 </form>
                                             </div>
                                         </Col>
-                                    </Row>
+                                    </Row> */}
+
+                                    <Form />
+
                                 </Col>
                             </Row>
                         </Container>
