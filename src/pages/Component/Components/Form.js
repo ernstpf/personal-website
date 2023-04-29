@@ -1,32 +1,41 @@
-import React, { useState } from 'react';
+import React, { useState } from 'react'
+import axios from 'axios'
 
 function Form() {
     const [formData, setFormData] = useState({
         name: '',
         email: '',
-        message: ''
-    });
+        message: '',
+    })
 
     const handleInputChange = (event) => {
         setFormData({
             ...formData,
-            [event.target.name]: event.target.value
-        });
-        console.log(formData);
+            [event.target.name]: event.target.value,
+        })
+        console.log(formData)
     }
 
-    const handleSubmit = (event) => {
-        event.preventDefault();
-        // send form data to server using API call
+    const handleSubmit = async (event) => {
+        event.preventDefault()
+        try {
+            const response = await axios.post(
+                'https:www.philernst.com:5000/send',
+                formData
+            )
+            console.log(response.data)
+        } catch (error) {
+            console.log(error)
+        }
     }
 
     return (
-        <form onSubmit={handleSubmit} className="row g-3 needs-validation formContactus">
+        <form
+            onSubmit={handleSubmit}
+            className="row g-3 needs-validation formContactus"
+        >
             <div className="col-md-6 col-sm-6 col-12">
-                <label
-                    for="name"
-                    class="visuallyhidden"
-                >
+                <label for="name" class="visuallyhidden">
                     Name
                 </label>
                 <input
@@ -34,7 +43,6 @@ function Form() {
                     className="form-control inputbox "
                     id="name"
                     name="name"
-
                     placeholder="Name"
                     aria-required="true"
                     required
@@ -44,10 +52,7 @@ function Form() {
             </div>
 
             <div className="col-md-6 col-sm-6 col-12">
-                <label
-                    for="email"
-                    class="visuallyhidden"
-                >
+                <label for="email" class="visuallyhidden">
                     E-mail
                 </label>
                 <input
@@ -63,10 +68,7 @@ function Form() {
                 />
             </div>
             <div className="col-md-12">
-                <label
-                    for="message"
-                    class="visuallyhidden"
-                >
+                <label for="message" class="visuallyhidden">
                     Message
                 </label>
                 <textarea
@@ -81,8 +83,7 @@ function Form() {
                     onChange={handleInputChange}
                 />
                 <div className="invalid-feedback">
-                    Please provide a
-                    Send Meassage.
+                    Please provide a Send Meassage.
                 </div>
             </div>
 
@@ -92,7 +93,7 @@ function Form() {
                 </button>
             </div>
         </form>
-    );
+    )
 }
 
-export default Form;
+export default Form
