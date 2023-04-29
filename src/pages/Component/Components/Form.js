@@ -13,7 +13,6 @@ function Form() {
             ...formData,
             [event.target.name]: event.target.value,
         })
-        console.log(formData)
     }
 
     const handleSubmit = async (event) => {
