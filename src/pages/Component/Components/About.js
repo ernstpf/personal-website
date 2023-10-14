@@ -24,7 +24,7 @@ const About = () => {
                                 />
                                 <div className="text-center about-name">
                                     <h2>Phil Ernst</h2>
-                                    <p>Web Producer</p>
+                                    <p>Product manager, web production</p>
                                 </div>
                             </div>
                         </Col>
@@ -36,8 +36,9 @@ const About = () => {
                                     solutions that delight users.
                                     <ul>
                                         <li>
-                                            At GitHub I build and ship web pages
-                                            and hone the launch process.
+                                            At GitHub, I craft web pages and improve
+                                            the publishing process by upleveling
+                                            web page quality and scale.
                                         </li>
                                         <li>
                                             At CUED-In Inc, I redesigned

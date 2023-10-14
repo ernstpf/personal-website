@@ -3,18 +3,18 @@ import { Container, Row, Col, Card } from 'react-bootstrap'
 
 const jobs = [
     {
-        title: 'Web Producer',
+        title: 'Product manager, web production',
         employer: 'GitHub',
         dates: '2023 - present',
         description:
-            'Launch marketing web pages run through a CMS to improve website functionality and maximize user experience while optimizing for conversion.',
+            'Make marketing web pages through a CMS, streamline the publishing process, and enhance page quality for a better user experience with a focus on increasing conversions.',
     },
     {
-        title: 'Front End/Full Stack Engineer (part-time)',
+        title: 'Front End/Full Stack Engineer (project)',
         employer: 'CUED-In Inc.',
         dates: '2020 - present',
         description:
-            "Build job posting web app using React and NodeJS for a startup company. Collaborate with engineers and designers to plan and code functionality. You can see it in action here: <a href='https://cuedin.us' target='blank'>https://cuedin.us</a>",
+            "Build job posting mobile app (React Native) and web app (React and NodeJS) for a startup company. Collaborate with engineers and designers to plan and code functionality. You can see it in action here: <a href='https://cuedin.us' target='blank'>https://cuedin.us</a>",
     },
     {
         title: 'Software Engineer',

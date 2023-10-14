@@ -25,7 +25,7 @@ const HeaderBanner = () => {
                     <div className="img-bnr-text ">
                         <div>
                             <p className="job-title" data-aos="fade-down">
-                                Web Producer
+                                Product manager, web production
                             </p>
 
                             <h1 data-aos="flip-down">Phil Ernst</h1>
@@ -35,7 +35,7 @@ const HeaderBanner = () => {
                                     <Col md={7} sm={12}>
                                         <p data-aos="fade-up">
                                             I&apos;m passionate about creating
-                                            truly beautiful digital solutions.
+                                            truly beautiful digital solutions
                                             that give users a memorable digital
                                             experience.
                                         </p>
