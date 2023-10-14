@@ -16,23 +16,19 @@ const degrees = [
 
 const skills = [
   {
-    title: "HTML",
+    title: "Web Development Knowledge",
     percent: "90",
   },
   {
-    title: "React",
+    title: "UX/UI Understanding",
+    percent: "85",
+  },
+  {
+    title: "Data Analysis",
     percent: "80",
   },
   {
-    title: "NodeJS",
-    percent: "75",
-  },
-  {
-    title: "JavaScript",
-    percent: "90",
-  },
-  {
-    title: "CSS3",
+    title: "Project Management",
     percent: "75",
   },
 ];
