@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react'
-import Banner from '../../../assets/Images/Banner/Banner.webp'
+import Banner from '../../../assets/Images/Banner/Banner.jpg'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { Container, Row, Col, Card } from 'react-bootstrap'
