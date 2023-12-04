@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col, Image } from 'react-bootstrap'
-import Aboutus from '../../../assets/Images/About/phil.webp'
+import Aboutus from '../../../assets/Images/About/phil.jpg'
 import { BsDownload } from 'react-icons/bs'
 
 const About = () => {
